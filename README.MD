@@ -4,9 +4,26 @@
 
 # Questions
 
+1. Does more sleep the night before make a session feel easier (lower RPE)?
+2. Do certain weather conditions affect how hard a session feels or how I perform?
+3. Does how I rate my own feeling before a session match how intense it actually turns out?
+
 # Data Dictionary
 
+| Column | Type | Unit / Format | How I measure it |
+|---|---|---|---|
+| date | date | YYYY-MM-DD | Day of the session |
+| time | time | HH:MM | Time session started |
+| session_type | categorical | up-backs / gym / sled / flys / hills / rest | What kind of training it was |
+| duration_min | numeric | minutes | How long the session lasted |
+| intensity_rpe | numeric | 1-10 | Rate of Perceived Exertion, how hard it felt |
+| sleep_hours | numeric | hours | Hours slept the night before |
+| felt_rating | categorical | 1-5 | How I felt overall |
+| weather | categorical | sunny / rain / cloudy / cold / windy | Conditions at time of session |
+
 # Description of the project
+
+I'm training towards running sub-11 seconds in the 100m and preparing for the indoor season with TUD and Raheny Shamrocks, so I'm tracking my training sessions to see what actually affects how I perform and recover. My sessions include up-backs, gym work, sled pulls, flys, and hill sessions through the week.
 
 # Instructions for use
 
@@ -33,74 +50,3 @@ Bla bla bla
 # What I learned
 
 Bla bla bla
-
-## Below is how to use Markdown. You can delete this:
-
-## This is how to markdown text:
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-
-|Some stuff | Some more stuff in this column |
