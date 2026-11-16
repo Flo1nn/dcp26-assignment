@@ -1,2 +1,17 @@
-date,time,session_type,duration_min,intensity_rpe,sleep_hours,felt_rating,weather
-2026-11-01,,rest,,,8,4,cold
+date,time,time,session_type,duration_min,intensity_rpe,sleep_hours,felt_rating,weather
+2026-11-01,,,rest day,,,8,4,warm
+2026-11-02,18:00,sled pulls,120 mins ,8,7, 4, cold
+2026-11-03,20:00,gym,60 mins,7,8,4,warm
+2026-11-04,18:00, up-backs, 110 mins,7,7.5,3,rain
+2026-11-05,20:00,gym,60 mins,8,8,3,warm
+2026-11-06,,,rest day,,,8,5,warm
+2026-11-07,11:00,Hills,90 mins,6,8,5,cold
+2026-11-08,,,rest day,,,8,4,warm
+2026-11-09,18:00,sled pulls,120 mins ,8,7, 4, cold
+2026-11-10,20:00,gym,60 mins,7,8,4,warm
+2026-11-11,18:00, up-backs, 110 mins,7,7.5,3,rain
+2026-11-12,20:00,gym,60 mins,8,8,3,warm
+2026-11-13,,,rest day,,,8,5,warm
+2026-11-14,11:00,flys,90 mins,8,7,2,cold / rain
+2026-11-15,,,rest day,,,8,4,warm
+2026-11-16,18:00,sled pulls,120 mins ,8,7, 4, cold
