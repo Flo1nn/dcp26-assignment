@@ -1,4 +1,4 @@
-date,time,time,session_type,duration_min,intensity_rpe,sleep_hours,felt_rating,weather
+date,time,session_type,duration_min,intensity_rpe,sleep_hours,felt_rating,weather
 2026-11-01,,,rest day,,,8,4,warm
 2026-11-02,18:00,sled pulls,120 mins ,8,7, 4, cold
 2026-11-03,20:00,gym,60 mins,7,8,4,warm
