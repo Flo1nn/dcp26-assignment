@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS training_sessions (
 """)
 cursor.execute("DELETE FROM training_sessions")
 
-with open("sprint_log.csv","r") as file:
+with open("data/sprint_log.csv","r") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
