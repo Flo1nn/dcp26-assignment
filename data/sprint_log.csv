@@ -15,7 +15,7 @@ date,time,session_type,duration_min,intensity_rpe,sleep_hours,felt_rating,weathe
 2026-11-14,11:00,flys,90,8,7,2,cold/rain
 2026-11-15,,rest,,,8,4,warm
 2026-11-16,18:00,sled pulls,120,8,7,4,cold
-2026-11-17,20:00,gym,60,4,8,4,wet
+2026-11-17,20:00,gym,60,4,8,4,rain
 2026-11-18,18:00,flys,120,6,7,4,cold
 2026-11-19,20:00,gym,60,4,8,4,cold
 2026-11-20,,rest,,,8,5,warm
