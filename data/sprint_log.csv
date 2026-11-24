@@ -22,3 +22,4 @@ date,time,session_type,duration_min,intensity_rpe,sleep_hours,felt_rating,weathe
 2026-11-21,11:00,flys,90,8,8,3,cold
 2026-11-22,,rest,,,8,5,cold
 2026-11-23,18:00,sled/blocks,180,7,8,1,cold
+2026-11-24,20:00,gym,80,8,7,5,warm
